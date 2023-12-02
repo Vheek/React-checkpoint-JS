@@ -1,0 +1,14 @@
+* {
+  background: #fff;
+  color: blueviolet;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
+}
